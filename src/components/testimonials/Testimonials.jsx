@@ -2,6 +2,10 @@ import React from "react";
 import "./testimonials.css";
 import AVTR1 from "../../assets/avatar1.jpg";
 import AVTR2 from "../../assets/avatar3.jpg";
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
 
 const peers = [
   {
@@ -23,19 +27,25 @@ const Testimonials = () => {
     <section id="testimonials">
       <h5>Review from Peers</h5>
       <h2>Testimonials</h2>
-      <div className="container testimonials_container">
+      <Swiper
+        className="container testimonials_container"
+        navigation={true}
+        modules={[Navigation]}
+        spaceBetween={40}
+        slidesPerView={1}
+      >
         {peers.map(({ avatar, name, review }, index) => {
           return (
-            <article key={index} className="testimonial">
+            <SwiperSlide key={index} className="testimonial">
               <div className="peer_avatar">
                 <img src={avatar} alt={name} />
               </div>
               <h5 className="peer_name">{name}</h5>
               <small className="peer_review">{review}</small>
-            </article>
+            </SwiperSlide>
           );
         })}
-      </div>
+      </Swiper>
     </section>
   );
 };
