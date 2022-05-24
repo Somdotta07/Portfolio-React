@@ -1,4 +1,4 @@
-.contact_container {
+.container.contact_container {
   width: 58%;
   display: grid;
   grid-template-columns: 30% 58%;
@@ -12,12 +12,12 @@
 }
 
 .contact_option {
- background: var(--color-bg-variant);
- padding: 1.2rem;
- border-radius: 1.2rem;
- text-align: center;
- border: 1px solid transparent;
- transition: var(--transition);
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
 
 .contact_option:hover {

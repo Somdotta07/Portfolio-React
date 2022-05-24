@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com';
 import './contact.css'
 import { MdEmail } from 'react-icons/md'
 import {FaLinkedin, FaAngellist} from 'react-icons/fa'
@@ -10,7 +10,7 @@ const Contact = () => {
     const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_17fat2a', 'template_236072h', form.current, '6LfUjxIgAAAAADyRg5S7hlzG4j24tMPg3IriwNG-')
+    emailjs.sendForm('service_17fat2a', 'template_236072h', form.current, 'XPPxghOSTh4_8PY6l')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
