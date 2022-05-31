@@ -1,9 +1,10 @@
 footer {
   background: var(--color-primary);
-  padding: 3rem 0;
+  padding: 0.5rem ;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 7rem;
+  margin-top: 5rem;
+  border-radius: 15rem 0.5rem;
 }
 
 footer a {

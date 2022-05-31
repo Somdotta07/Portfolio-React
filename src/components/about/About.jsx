@@ -24,7 +24,7 @@ const About = () => {
             <article className="about_card">
               <FaCertificate className="about_icon" />
               <h5>Certificates</h5>
-              <small>5+</small>
+              <small>7+</small>
             </article>
             <article className="about_card">
               <FaFolder className="about_icon" />
@@ -32,10 +32,15 @@ const About = () => {
               <small>40+ projects completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non ante lectus.
-            Ut nec malesuada ipsum. Vestibulum tempus eleifend ante, a dictum purus faucibus nec.
-            Curabitur vel libero vel est pretium venenatis vel vitae mi.
-            Donec sed elementum massa, ac hendrerit neque. In aliquam convallis velit et fermentum.
+          <p>I’m a certified software developer, who enjoys building interactive  interfaces with JavaScript, React and Ruby On Rails.
+            <br />
+            <br />
+            I'm also a Mentor, Project Reviewer at Microverse.
+            <br />
+            <br />
+            I'm open to front-end remote opportunities.
+            If you like what you see and have a project you need coded, 
+            don’t hestiate to contact me.
           </p>
           <a href="#contact" className="btn btn-primary"> Let's talk</a>
         </div>

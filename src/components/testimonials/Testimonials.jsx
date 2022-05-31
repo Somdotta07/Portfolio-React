@@ -1,7 +1,7 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/avatar1.jpg";
-import AVTR2 from "../../assets/avatar3.jpg";
+import AVTR1 from "../../assets/Shahier.jpg";
+import AVTR2 from "../../assets/Chim.jpg";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -10,15 +10,15 @@ import "swiper/css/navigation";
 const peers = [
   {
     avatar: AVTR1,
-    name: "Rachel Higgins",
+    name: "Shahier Nashaat",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.Rerum molestiae, corporis possimus consectetur consequuntur eaque dignissimos in reiciendis corrupti necessitatibus ea laborum odit  voluptate nobis quas, explicabo quisquam velit modi!",
+      "Somdotta is one of the best teammates I have ever worked with, she is a very good listener, a fast learner provides help to anyone in the team if needed, and is very committed to the responsibilities that she has.",
   },
   {
     avatar: AVTR2,
-    name: "Jim Scott",
+    name: "Chimwewme Sinyinza",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.Rerum molestiae, corporis possimus consectetur consequuntur eaque dignissimos in reiciendis corrupti necessitatibus ea laborum odit  voluptate nobis quas, explicabo quisquam velit modi!",
+      "I had the chance to work with Somdotta on different projects. Her technical skills were always impressive. She constantly showed professional behaviour and a high level of problem-solving skills.She is always creative with writing codes and shows a nice attitude towards team members. Based on that, I would gladly recommend her as a software developer with her technical and soft skills.",
   },
 ];
 

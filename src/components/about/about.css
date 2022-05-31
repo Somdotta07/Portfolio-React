@@ -61,7 +61,7 @@
 
 .about_content p {
   margin: 2rem 0 2.6rem;
-  color: var(--color-primary); 
+  color: var(--color-white); 
 }
 
 @media screen and (max-width: 1024px){
