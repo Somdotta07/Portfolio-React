@@ -10,20 +10,20 @@ const Services = () => {
       <div className="container services_container">
         <article className="services">
           <div className="service_head">
-            <h3>UI/UX Design</h3>
+            <h3>Front-end Creation</h3>
           </div>
           <ul className="service_list">
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+              <p>Help to build responsive front-end portion of websites and web applications </p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+              <p>Optimize applications for maximum speed.</p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+              <p>Collaborate with back-end developers and web designers to improve usability. </p>
             </li>
           </ul>
         </article>
@@ -34,37 +34,33 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+              <p>Rails or Ruby on Rails: Ruby, PostgreSQL, Ruby on Rails</p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+              <p>Ecommerce Applications </p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+              <p>QA and Testing</p>
             </li>
           </ul>
         </article>
         <article className="services">
           <div className="service_head">
-            <h3>Front-end Creation</h3>
+            <h3>UI/UX Design</h3>
           </div>
           <ul className="service_list">
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+              <p>Improve user interaction  and customer satisfaction</p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
-            </li>
-            <li>
-              <FaCheckSquare className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+              <p>Help to boost growth of the business</p>
             </li>
           </ul>
-        </article>
+        </article>       
       </div>
     </section>
   );

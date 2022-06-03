@@ -37,6 +37,8 @@
 
 .experience_details-icon {
   margin-top: 6px;
+  width: 15%;
+  height: 70%;
   color: var(--color-primary);
 }
 

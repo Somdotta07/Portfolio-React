@@ -32,13 +32,13 @@ const About = () => {
               <small>40+ projects completed</small>
             </article>
           </div>
-          <p>I’m a certified software developer, who enjoys building interactive  interfaces with JavaScript, React and Ruby On Rails.
+          <p>I’m a certified full-stack developer, who enjoys building interactive  interfaces with JavaScript, React and Ruby On Rails.
             <br />
             <br />
             I'm also a Mentor, Project Reviewer at Microverse.
             <br />
             <br />
-            I'm open to front-end remote opportunities.
+            I'm open to front-end (remote) opportunities.
             If you like what you see and have a project you need coded, 
             don’t hestiate to contact me.
           </p>
