@@ -7,10 +7,6 @@ function Avatar() {
   return (
    <Canvas
          camera={{ position: [2, 0, 12.25], fov: 15 }}
-         style={{
-            // width: '100vw',
-            // height: '100vh',
-         }}
       >
          <ambientLight intensity={1.25} />
          <ambientLight intensity={0.1} />
