@@ -1,9 +1,19 @@
-import React, { useRef } from 'react';
-import { useGLTF } from '@react-three/drei';
+import React, { useRef, useEffect } from 'react'; /* highlight-line */
+import { useGLTF, useAnimations } from '@react-three/drei'; /* highlight-line */
 
 export default function Model({ ...props }) {
    const group = useRef();
-   const { nodes, materials } = useGLTF('/model.glb');
+   const { nodes, materials, animations } = useGLTF('/model.glb');
+
+   const { actions } = useAnimations(animations, group); /* highlight-line */
+
+   // 'Armature|mixamo.com|Layer0' is the name of the animation we need to run.
+   // console.log(actions);
+
+   useEffect(() => {/* highlight-line */
+      actions['Armature|mixamo.com|Layer0'].play(); /* highlight-line */
+   }); /* highlight-line */
+
    return (
       <group ref={group} {...props} dispose={null}>
          <primitive object={nodes.Hips} />
