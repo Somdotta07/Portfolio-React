@@ -15,9 +15,9 @@ const Header = () => {
         <HeaderSocials />
         <div className="cartoon">
           <div className="bubble b r hb">
-            Hello...
+            Hello World!
             <br />
-            World!
+            Welcome to my Portfoli..
           </div>
         </div>
 
