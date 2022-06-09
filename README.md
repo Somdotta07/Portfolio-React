@@ -1,8 +1,35 @@
+# Portfolio
+ I’m a certified full-stack developer, who enjoys building interactive interfaces with JavaScript, React and Ruby On Rails.
+I'm also a Mentor, Project Reviewer at Microverse.
+I'm open to front-end (remote) opportunities. If you like what you see and have a project you need coded, don’t hestiate to contact me. 
+
+## Built With
+- React
+- CSS
+- Three.js
+## Screen shot
+![image](https://user-images.githubusercontent.com/84907743/172868240-6fc6effe-1b01-4315-b267-99de1fedf364.png)
+
+
+## Live Demo
+
+- [Netlify](https://somdotta-dev.netlify.app/)
+
+
+## Getting Started :
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Prerequisites
+VS code editor and gitbash 
+
+### Setup
+ If you like to set up this repository in your local machine the please follow the steps:
+ - Click on the repository name 
+ - Fork it /clone it 
+ - Use your preferable browser to view /edit it.
+
 
 In the project directory, you can run:
 
@@ -14,57 +41,49 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Install
+   node.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Usage
+To open the project you can simply download and double click the index.html file
 
 ### Deployment
+Use an IDE to develop and run it into your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+👤 Somdotta Sarkar
 
-### `npm run build` fails to minify
+- [Github](https://github.com/Somdotta07)
+- [Twitter](https://github.com/Somdotta07)
+- [LinkedIn](www.linkedin.com/in/somdottasarkar)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+- Microverse
+- Mixamo.com
+- EGATOR
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
+
+
+
+
+
+
+
+
+
+
+
