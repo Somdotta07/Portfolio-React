@@ -17,7 +17,7 @@ const Header = () => {
           <div className="bubble b r hb">
             Hello World!
             <br />
-            Welcome to my Portfoli..
+            Welcome to my Portfolio..
           </div>
         </div>
 
