@@ -10,7 +10,7 @@ function Avatar() {
       <ambientLight intensity={0.1} />
       <directionalLight intensity={0.4} />
       <Suspense fallback={null} r3f>
-        <Model />
+        <Model position={[0.025, -0.9, 0]}/>
       </Suspense>
       <OrbitControls />
     </Canvas>

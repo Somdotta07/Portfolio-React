@@ -16,12 +16,6 @@
 .about_me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
-  transition: var(--transition);
-}
-
-.about_me-image:hover {
-  transform: rotate(0deg);
 }
 
 .about_cards {
@@ -99,4 +93,5 @@
   .about_content p {
     margin: 1.5rem 0;
   }
+
 }

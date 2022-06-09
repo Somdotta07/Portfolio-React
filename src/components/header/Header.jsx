@@ -13,9 +13,16 @@ const Header = () => {
         <h5 className="text-light"> Full-stack Developer</h5>
         <CTA />
         <HeaderSocials />
-        {/* <div className="me"> */}
-          <Avatar />
-        {/* </div> */}
+        <div className="cartoon">
+          <div className="bubble b r hb">
+            Hello...
+            <br />
+            World!
+          </div>
+        </div>
+
+        <Avatar />
+
         <a href="#contact" className="scroll_down">
           Scroll Down
         </a>
