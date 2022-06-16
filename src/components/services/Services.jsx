@@ -15,15 +15,15 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Help to build responsive front-end portion of websites and web applications </p>
+              <p>I build front-end websites and mobile applications </p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Optimize applications for maximum speed.</p>
+              <p>I optimize applications for maximum speed.</p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Collaborate with back-end developers and web designers to improve usability. </p>
+              <p>I collaborate with back-end developers and web designers to improve usability. </p>
             </li>
           </ul>
         </article>
@@ -34,15 +34,15 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Rails or Ruby on Rails: Ruby, PostgreSQL, Ruby on Rails</p>
+              <p>I build web apps using React, Rails or Ruby on Rails and PostgreSQL</p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Ecommerce Applications </p>
+              <p>I create Ecommerce Applications </p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>QA and Testing</p>
+              <p>QA and Tests</p>
             </li>
           </ul>
         </article>
@@ -53,11 +53,11 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Improve user interaction  and customer satisfaction</p>
+              <p> I improve user interaction  and customer satisfaction</p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>Help to boost growth of the business</p>
+              <p>I help to boost business growth by improving application runtime speed</p>
             </li>
           </ul>
         </article>       
