@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.33791630.css",
-    "main.js": "/static/js/main.9b3b1702.js",
+    "main.js": "/static/js/main.f7a1c4db.js",
     "static/media/awesomebooks.png": "/static/media/awesomebooks.80c739d2d1aa10511052.png",
     "static/media/Space Travel.PNG": "/static/media/Space Travel.db144fdd097b21a19269.PNG",
-    "static/media/Covid.png": "/static/media/Covid.a3dcf76c86b1dcfd5e4f.png",
     "static/media/streamfog.png": "/static/media/streamfog.e81c162592a57076a846.png",
     "static/media/somarven.png": "/static/media/somarven.965013e5ddaea2e2590f.png",
     "static/media/me-2.png": "/static/media/me-2.e6bdfc444e20286aade3.png",
@@ -13,10 +12,10 @@
     "static/media/Chim.jpg": "/static/media/Chim.62e7b3aa117408ebdf1e.jpg",
     "index.html": "/index.html",
     "main.33791630.css.map": "/static/css/main.33791630.css.map",
-    "main.9b3b1702.js.map": "/static/js/main.9b3b1702.js.map"
+    "main.f7a1c4db.js.map": "/static/js/main.f7a1c4db.js.map"
   },
   "entrypoints": [
     "static/css/main.33791630.css",
-    "static/js/main.9b3b1702.js"
+    "static/js/main.f7a1c4db.js"
   ]
 }

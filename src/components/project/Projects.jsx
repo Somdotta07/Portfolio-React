@@ -5,7 +5,7 @@ import IMG2 from "../../assets/alluvie.png";
 import IMG3 from "../../assets/somarven.png";
 import IMG4 from "../../assets/Space Travel.PNG";
 import IMG5 from "../../assets/awesomebooks.png";
-import IMG6 from "../../assets/Covid.png";
+// import IMG6 from "../../assets/Covid.png";
 
 const projects = [
   {
@@ -38,7 +38,7 @@ const projects = [
   },
   {
     id: 5,
-    image: IMG6,
+    image: IMG5,
     title: "Awesome Books - displays, add books",
     github: "https://github.com/Somdotta07/Awesome_Books",
     demo: "https://somdotta07.github.io/Awesome_Books/",
