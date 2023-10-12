@@ -1,50 +1,46 @@
 import React from "react";
 import "./project.css";
-import IMG1 from '../../assets/somarven.png';
-import IMG2 from '../../assets/Breaking bad.png';
-import IMG3 from '../../assets/Covid.png';
-import IMG4 from '../../assets/recipeapp.PNG';
-import IMG5 from '../../assets/Space Travel.PNG';
-import IMG6 from '../../assets/awesomebooks.png';
+import IMG1 from '../../assets/streamfog.png';
+import IMG2 from '../../assets/alluvie.png';
+import IMG3 from '../../assets/somarven.png';
+import IMG4 from '../../assets/Space Travel.PNG';
+import IMG5 from '../../assets/awesomebooks.png';
+import IMG6 from '../../assets/Covid.png';
 
 
-const projects = [{
-  id: 1,
-  image: IMG1,
-  title: 'Somarven full-stack project - Group project',
-  github: 'https://github.com/Somdotta07/Somarven-Arenas-frontend',
-  demo:'https://somarven.netlify.app/'
-},
- {
+const projects = [
+  {
+    id: 1,
+    image: IMG1,
+    title: 'Streamfog',
+    github: '',
+    demo:'https://streamfog.com/'
+  },{
   id: 2,
   image: IMG2,
-  title: 'Breaking Bad Plain JavaScript group-project',
-  github: 'https://github.com/Somdotta07/js-capstone',
-  demo:'https://mwanawabangona.github.io/js-capstone/'
-  }, 
+  title: 'Alluvie',
+  github: '',
+  demo:'https://alluvie.com/'
+},
+
+  
  {
   id: 3,
   image: IMG3,
-  title: 'Covid Data-Single page application-React-Redux',
-  github: 'https://github.com/Somdotta07/react-redux-capstone',
-   demo: 'https://determined-aryabhata-b6bc71.netlify.app/'
+  title: 'Somarven- Full-stack Group project',
+  github: 'https://github.com/Somdotta07/Somarven-Arenas-frontend',
+   demo: 'https://somarven.netlify.app/'
   },
+ 
  {
   id: 4,
   image: IMG4,
-  title: 'Recipe App- Built with Ruby & Ruby On Rails-Group project',
-  github: 'https://github.com/Somdotta07/recipe-blog-1',
-  demo:'https://gentle-hollows-44027.herokuapp.com/users/sign_in'
-  },
- {
-  id: 5,
-  image: IMG5,
   title: 'Space Travelers Hub- React-Redux Group project',
   github: 'https://github.com/Somdotta07/space-travelers-hub',
   demo:'https://cranky-cray-0feacf.netlify.app/'
   },
  {
-  id: 6,
+  id: 5,
   image: IMG6,
   title: 'Awesome Books - displays, add books',
   github: 'https://github.com/Somdotta07/Awesome_Books',

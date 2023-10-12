@@ -35,9 +35,7 @@ const About = () => {
           </div>
           <p>I’m a certified full-stack developer, who enjoys building interactive  interfaces with JavaScript, React and Ruby On Rails.
             <br />
-            <br />
-            I'm also a Mentor and Project Reviewer at Microverse.
-            <br />
+            
             <br />
             I'm open to Full-stack(remote/onsite) opportunities with a passion of Front-end development.
             If you like what you see and have a project you need coded, 
