@@ -2,10 +2,11 @@ import React from "react";
 import "./project.css";
 import IMG1 from "../../assets/streamfog.png";
 import IMG2 from "../../assets/alluvie.png";
-import IMG3 from "../../assets/somarven.png";
-import IMG4 from "../../assets/Space Travel.PNG";
-import IMG5 from "../../assets/awesomebooks.png";
-// import IMG6 from "../../assets/Covid.png";
+import IMG3 from "../../assets/elcami.png"
+import IMG4 from "../../assets/somarven.png";
+import IMG5 from "../../assets/Space Travel.PNG";
+import IMG6 from "../../assets/awesomebooks.png";
+
 
 const projects = [
   {
@@ -20,25 +21,31 @@ const projects = [
     title: "Alluvie",
     demo: "https://alluvie.com/",
   },
-
   {
     id: 3,
     image: IMG3,
+    title: "Elcami",
+    demo: "https://elcami.eu/es/",
+  },
+
+  {
+    id: 4,
+    image: IMG4,
     title: "Somarven- Full-stack Group project",
     github: "https://github.com/Somdotta07/Somarven-Arenas-frontend",
     demo: "https://somarven.netlify.app/",
   },
 
   {
-    id: 4,
-    image: IMG4,
+    id: 5,
+    image: IMG5,
     title: "Space Travelers Hub- React-Redux Group project",
     github: "https://github.com/Somdotta07/space-travelers-hub",
     demo: "https://cranky-cray-0feacf.netlify.app/",
   },
   {
-    id: 5,
-    image: IMG5,
+    id: 6,
+    image: IMG6,
     title: "Awesome Books - displays, add books",
     github: "https://github.com/Somdotta07/Awesome_Books",
     demo: "https://somdotta07.github.io/Awesome_Books/",

@@ -36,12 +36,7 @@ const Contact = () => {
             <h5>somdottasarkar</h5>
             <a href='https://www.linkedin.com/in/somdottasarkar/' target="_blank" rel="noreferrer">Send a message</a>
           </article>
-          <article className='contact_option'>
-            <FaAngellist className='contact_option-icon'/>
-            <h4>AngelList</h4>
-            <h5>somdotta-sarkar</h5>
-            <a href='https://angel.co/u/somdotta-sarkar' target="_blank" rel="noreferrer">Send a message</a>
-          </article>
+          
         </div>
         <form ref={form} onSubmit={sendEmail} >
           <input type="text" name='name' placeholder='Full Name' required />

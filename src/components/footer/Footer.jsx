@@ -18,10 +18,10 @@ const Footer = () => {
       </ul>
       <div className="footer_socials">
         <a href="https://www.linkedin.com/in/somdottasarkar/"><FaLinkedin /></a>
-        <a href="https://angel.co/u/somdotta-sarkar"><FaAngellist /></a>
-        <a href="https://twitter.com/somdotta_sarkar"><FaTwitter /></a>
-        <a href="https://github.com/Somdotta07"><FaGithub /></a>        
+        <a href="https://github.com/Somdotta07"><FaGithub /></a>
         <a href="https://medium.com/@jhilick.s"><FaMedium /></a>
+        <a href="https://angel.co/u/somdotta-sarkar"><FaAngellist /></a>
+        <a href="https://twitter.com/somdotta_sarkar"><FaTwitter /></a>        
       </div>
       <div className="footer_copyright">
         <small>&copy; DevSom Portfolio. All rights reserved.</small>

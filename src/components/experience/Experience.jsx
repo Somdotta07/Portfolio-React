@@ -4,7 +4,7 @@ import css3 from '../../assets/css3.png'
 import html from '../../assets/html-5.png'
 import js from '../../assets/javascript.png'
 import react from '../../assets/react.png'
-import bs from '../../assets/bootstrap.png'
+import wp from '../../assets/wp.png'
 import three from '../../assets/threejs.png'
 import node from '../../assets/node.jpg'
 import postgr from '../../assets/postgresql.png'
@@ -51,10 +51,10 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience_details">
-              <img src={bs} className="experience_details-icon" alt="bs"/>
+              <img src={wp} className="experience_details-icon" alt="wp"/>
               <div>           
-                <h4>BOOTSTRAP</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Wordpress</h4>
+                <small className="text-light">Proficient</small>
               </div>
             </article>
             <article className="experience_details">
