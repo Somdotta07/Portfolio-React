@@ -6,7 +6,7 @@
 
 .project_item {
   background: var(--color-bg-variant);
-  padding: 1.3rem;
+  padding: 1rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
@@ -28,8 +28,7 @@
 
 .project-item-cta {
   display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 1024px){

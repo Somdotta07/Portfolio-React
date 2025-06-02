@@ -1,55 +1,61 @@
 import React from "react";
 import "./project.css";
-import IMG1 from "../../assets/streamfog.png";
-import IMG2 from "../../assets/alluvie.png";
-import IMG3 from "../../assets/elcami.png"
-import IMG4 from "../../assets/somarven.png";
-import IMG5 from "../../assets/Space Travel.PNG";
-import IMG6 from "../../assets/awesomebooks.png";
+import IMG1 from "../../assets/novel_admin.png";
+import IMG2 from "../../assets/novel.png";
+import IMG3 from "../../assets/streamfog.png";
+import IMG4 from "../../assets/admin.png";
+import IMG5 from "../../assets/alluvie.png";
+import IMG6 from "../../assets/elcami.png"
+import IMG7 from "../../assets/mobile_app.gif";
+
 
 
 const projects = [
   {
     id: 1,
     image: IMG1,
-    title: "Streamfog",
-    demo: "https://streamfog.com/",
+    title: "Admin Panel",
+    demo: "https://orange-glacier-056ab3a00.6.azurestaticapps.net/organizations",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Alluvie",
-    demo: "https://alluvie.com/",
+    title: "Novel",
+    demo: "https://novelaquatech.com/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Elcami",
-    demo: "https://elcami.eu/es/",
+    title: "Streamfog",
+    demo: "https://streamfog.com/",
   },
-
   {
     id: 4,
     image: IMG4,
-    title: "Somarven- Full-stack Group project",
-    github: "https://github.com/Somdotta07/Somarven-Arenas-frontend",
-    demo: "https://somarven.netlify.app/",
+    title: "Locate user",
+    demo: "https://novelaquatech.com/logistics/",
   },
-
   {
     id: 5,
     image: IMG5,
-    title: "Space Travelers Hub- React-Redux Group project",
-    github: "https://github.com/Somdotta07/space-travelers-hub",
-    demo: "https://cranky-cray-0feacf.netlify.app/",
+    title: "Alluie",
+    demo: "https://alluvie.com/"
   },
+
   {
     id: 6,
     image: IMG6,
-    title: "Awesome Books - displays, add books",
-    github: "https://github.com/Somdotta07/Awesome_Books",
-    demo: "https://somdotta07.github.io/Awesome_Books/",
+    title: "Elcami",   
+    demo: "https://elcamidelasolidaritat.org/",
   },
+    {
+    id: 7,
+    image: IMG7,
+    title: "Mobile App",   
+    demo: "",
+  },
+
+
 ];
 const Projects = () => {
   return (
@@ -57,7 +63,7 @@ const Projects = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container project_container">
-        {projects.map(({ id, image, title, github, demo }) => {
+        {projects.map(({ id, image, title, demo }) => {
           return (
             <article key={id} className="project_item">
               <div className="project_item-image">
@@ -65,9 +71,7 @@ const Projects = () => {
               </div>
               <h3>{title}</h3>
               <div className="project-item-cta">
-                <a href={github} className="btn">
-                  Github
-                </a>
+                
                 <a
                   href={demo}
                   className="btn btn-primary"

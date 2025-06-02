@@ -10,57 +10,103 @@ const Services = () => {
       <div className="container services_container">
         <article className="services">
           <div className="service_head">
-            <h3>Front-end Creation</h3>
-          </div>
-          <ul className="service_list">
-            <li>
-              <FaCheckSquare className="service_list-icon" />
-              <p>I build front-end websites and mobile applications </p>
-            </li>
-            <li>
-              <FaCheckSquare className="service_list-icon" />
-              <p>I optimize applications for maximum speed.</p>
-            </li>
-            <li>
-              <FaCheckSquare className="service_list-icon" />
-              <p>I collaborate with back-end developers and web designers to improve usability. </p>
-            </li>
-          </ul>
-        </article>
-        <article className="services">
-          <div className="service_head">
             <h3>Web Development</h3>
           </div>
           <ul className="service_list">
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>I build web apps using React, Rails or Ruby on Rails and PostgreSQL</p>
+              <p>
+                Expertise in MERN stack (MongoDB, Express.js, React.js, Node.js)
+                for robust and scalable web applications.
+              </p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>I create Ecommerce Applications </p>
+              <p>
+                Development of E-commerce platforms, ensuring seamless shopping
+                experiences.
+              </p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>QA and Tests</p>
+              <p>
+                Quality Assurance & Testing to deliver reliable and
+                high-performance applications.
+              </p>
+            </li>
+            <li>
+              <FaCheckSquare className="service_list-icon" />
+              <p>
+                Integration with third-party APIs, databases, and cloud services
+                based on project requirements.
+              </p>
             </li>
           </ul>
         </article>
         <article className="services">
           <div className="service_head">
-            <h3>UI/UX Design</h3>
+            <h3>Front-end & Mobile Development</h3>
           </div>
           <ul className="service_list">
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p> I improve user interaction  and customer satisfaction</p>
+              <p>
+                Designing and developing high-performance front-end
+                applications, primarily using React.js.
+              </p>
             </li>
             <li>
               <FaCheckSquare className="service_list-icon" />
-              <p>I help to boost business growth by improving application runtime speed</p>
+              <p>
+                Developing mobile applications using React Native, with secure
+                JWT authentication.
+              </p>
+            </li>
+            <li>
+              <FaCheckSquare className="service_list-icon" />
+              <p>
+                Optimizing applications for maximum speed, responsiveness, and
+                SEO.
+              </p>
+            </li>
+            <li>
+              <FaCheckSquare className="service_list-icon" />
+              <p>
+                Seamless collaboration with back-end developers and UI/UX
+                designers to enhance usability and efficiency.
+              </p>
             </li>
           </ul>
-        </article>       
+        </article>
+
+        <article className="services">
+          <div className="service_head">
+            <h3>UI/UX Design & Optimization</h3>
+          </div>
+          <ul className="service_list">
+            <li>
+              <FaCheckSquare className="service_list-icon" />
+              <p>
+                Improving user interaction for intuitive and engaging
+                experiences.
+              </p>
+            </li>
+            <li>
+              <FaCheckSquare className="service_list-icon" />
+              <p>
+                Boosting business growth by refining design, accessibility, and
+                application speed.
+              </p>
+            </li>
+            <li>
+              <FaCheckSquare className="service_list-icon" />
+              <p>
+                Tailoring solutions based on user research, ensuring customer
+                satisfaction and retention.
+              </p>
+            </li>
+          </ul>
+        </article>
       </div>
     </section>
   );
