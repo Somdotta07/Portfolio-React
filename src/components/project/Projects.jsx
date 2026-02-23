@@ -7,6 +7,8 @@ import IMG4 from "../../assets/admin.png";
 import IMG5 from "../../assets/alluvie.png";
 import IMG6 from "../../assets/elcami.png"
 import IMG7 from "../../assets/mobile_app.gif";
+import IMG8 from "../../assets/vista.png";
+import IMG9 from "../../assets/malta-weather.png";
 
 
 
@@ -54,14 +56,26 @@ const projects = [
     title: "Mobile App",   
     demo: "",
   },
+      {
+    id: 8,
+    image: IMG8,
+    title: "VistaCloud",   
+    demo: "https://vistacloud.in/",
+  },
+      {
+    id: 9,
+    image: IMG9,
+    title: "Malta Weather App",   
+    demo: "",
+  },
 
 
 ];
 const Projects = () => {
   return (
     <section id="project">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>My Recent</h5>
+      <h2>Projects</h2>
       <div className="container project_container">
         {projects.map(({ id, image, title, demo }) => {
           return (

@@ -13,13 +13,13 @@ import rails from "../../assets/rails.png";
 import ruby from "../../assets/ruby.png";
 import shopify from "../../assets/shopify.png";
 import mongo from "../../assets/mongo.webp";
-import figma from '../../assets/figma.jfif'
+import figma from "../../assets/figma.jfif";
 
 const Experience = () => {
   return (
     <section id="experience">
       <h5>What Skills I Have</h5>
-      <h2>My Skills</h2>
+      <h2>Skills</h2>
       <div className="container experience_container">
         <div className="experience_frontend">
           <h3>Frontend Development</h3>
@@ -56,9 +56,13 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-                 <article className="experience_details">
-              <img src={figma} className="experience_details-icon" alt="figma"/>
-              <div>           
+            <article className="experience_details">
+              <img
+                src={figma}
+                className="experience_details-icon"
+                alt="figma"
+              />
+              <div>
                 <h4>Figma</h4>
                 <small className="text-light">Proficient</small>
               </div>
@@ -95,7 +99,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="experience_backend">
-          <h3>Backend Development</h3>
+          <h3>Backend Development & AI</h3>
           <div className="experience_content">
             <article className="experience_details">
               <img src={node} className="experience_details-icon" alt="node" />
@@ -153,6 +157,94 @@ const Experience = () => {
               <div>
                 <h4>Python</h4>
                 <small className="text-light">Beginner</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="experience_cloud">
+          <h3> Cloud & Platforms</h3>
+          <div className="experience_content">
+            <article className="experience_details">
+              <div>
+                <h4>AWS</h4>
+                <small className="text-light">Proficient</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <h4>Microsoft Azure</h4>
+                <small className="text-light">Proficient</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <h4>GIT & GitHub</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <h4>Docker</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <h4>Vercel</h4>
+                <small className="text-light">Proficient</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <h4>Netlify</h4>
+                <small className="text-light">Proficient</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <h4>Heroku</h4>
+                <small className="text-light">Proficient</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="Professional">
+          <h3> Professional</h3>
+          <div className="experience_content">
+            <article className="experience_details">
+              <div>
+                <h4>Agile Development</h4>
+                <small className="text-light">Expert in Scrum/Kanban workflows, Sprint planning, and cross-functional team collaboration via Jira.</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <h4> Remote Collaboration</h4>
+                <small className="text-light">Proven track record in international, distributed teams using Git/GitHub, Slack, and Zoom.</small>
+              </div>
+            </article>
+             <article className="experience_details">
+              <div>
+                <h4>Technical Mentorship</h4>
+                <small className="text-light">8+ years of experience teaching, conducting code reviews, and guiding developers through complex debugging.</small>
+              </div>
+            </article>
+             <article className="experience_details">
+              <div>
+                <h4>Strategic Planning</h4>
+                <small className="text-light">Requirements gathering, system architecture design, and SEO/Performance optimization.</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <h4>English</h4>
+                <small className="text-light">Proficient</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <h4>German</h4>
+                <small className="text-light">A1</small>
               </div>
             </article>
           </div>
