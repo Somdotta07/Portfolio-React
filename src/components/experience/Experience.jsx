@@ -156,7 +156,7 @@ const Experience = () => {
               />
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Beginner</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>
