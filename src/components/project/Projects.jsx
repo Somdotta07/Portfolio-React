@@ -15,9 +15,9 @@ import IMG9 from "../../assets/malta-weather.png";
 const projects = [
   {
     id: 1,
-    image: IMG1,
-    title: "Admin Panel",
-    demo: "https://orange-glacier-056ab3a00.6.azurestaticapps.net/organizations",
+    image: IMG8,
+    title: "Vistacloud",
+    demo: "https://vistacloud.in/",
   },
   {
     id: 2,
@@ -56,18 +56,19 @@ const projects = [
     title: "Mobile App",   
     demo: "",
   },
-      {
+  {
     id: 8,
-    image: IMG8,
-    title: "VistaCloud",   
-    demo: "https://vistacloud.in/",
-  },
-      {
-    id: 9,
     image: IMG9,
     title: "Malta Weather App",   
     demo: "",
+  }
+      {
+    id: 9,
+    image: IMG1,
+    title: "Admin Panel",   
+    demo: "https://orange-glacier-056ab3a00.6.azurestaticapps.net/organizations",
   },
+      ,
 
 
 ];
