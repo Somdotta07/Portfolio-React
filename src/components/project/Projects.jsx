@@ -5,12 +5,10 @@ import IMG2 from "../../assets/novel.png";
 import IMG3 from "../../assets/streamfog.png";
 import IMG4 from "../../assets/admin.png";
 import IMG5 from "../../assets/alluvie.png";
-import IMG6 from "../../assets/elcami.png"
+import IMG6 from "../../assets/elcami.png";
 import IMG7 from "../../assets/mobile_app.gif";
 import IMG8 from "../../assets/vista.png";
 import IMG9 from "../../assets/malta-weather.png";
-
-
 
 const projects = [
   {
@@ -41,36 +39,34 @@ const projects = [
     id: 5,
     image: IMG5,
     title: "Alluie",
-    demo: "https://alluvie.com/"
+    demo: "https://alluvie.com/",
   },
 
   {
     id: 6,
     image: IMG6,
-    title: "Elcami",   
+    title: "Elcami",
     demo: "https://elcamidelasolidaritat.org/",
   },
-    {
+  {
     id: 7,
     image: IMG7,
-    title: "Mobile App",   
+    title: "Mobile App",
     demo: "",
   },
   {
     id: 8,
     image: IMG9,
-    title: "Malta Weather App",   
+    title: "Malta Weather App",
     demo: "",
-  }
-      {
+  },
+  {
     id: 9,
     image: IMG1,
-    title: "Admin Panel",   
+    title: "Admin Panel",
     demo: "https://orange-glacier-056ab3a00.6.azurestaticapps.net/organizations",
-  },
-      ,
-
-
+  }
+  
 ];
 const Projects = () => {
   return (
@@ -86,7 +82,6 @@ const Projects = () => {
               </div>
               <h3>{title}</h3>
               <div className="project-item-cta">
-                
                 <a
                   href={demo}
                   className="btn btn-primary"
