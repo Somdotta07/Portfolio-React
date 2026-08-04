@@ -1,7 +1,7 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/Shahier.jpg";
-import AVTR2 from "../../assets/Chim.jpg";
+import AVTR1 from "../../assets/shahier.jpg";
+import AVTR2 from "../../assets/chim.jpg";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
