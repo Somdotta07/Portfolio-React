@@ -9,7 +9,7 @@ import novel from "./assets/novel.webp";
 import novelAdmin from "./assets/novel_admin.webp";
 import resume from "./assets/somdotta-sarkar-resume.pdf";
 import shahier from "./assets/Shahier.jpg";
-import somdotta from "./assets/somdotta.jpg";
+import somdotta from "./assets/Somdotta.jpg";
 import streamfog from "./assets/streamfog.webp";
 import vista from "./assets/vista.webp";
 
